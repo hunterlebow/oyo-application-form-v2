@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="appWrapper">
+      
+      <div class="Header">
+        <h1 class="headerH1">OWN YOUR OWN ©</h1>
+        <h3 class="headerH3">Restaurant Contest</h3>
+        <img src="images/oyo-logo2.png" class="headerLogo"/>
+        <h3 class="headerH3">Author: Hunter Lebow</h3>
+      </div>
+      
+      <div class="formWrapper">
+        <h1>Round 1</h1>
+        <form action="#" class="roundOne">
+          <label for="firstName">First name:</label><br />
+          <input type="text" name="firstName" placeholder="John" /><br />
+    
+          <label for="lastName">Last name:</label><br />
+          <input type="text" name="lastName" placeholder="Doe" /><br />
+          
+          <label for="email">Email:</label><br />
+          <input type="email" name="email" placeholder="example@example.com" /><br />
+
+            <div class="btnWrapper">
+              <button>Submit</button>
+            </div>
+
+          <label for="yearsExp">How many years experience do you have in the restaurant industry?</label><br />
+          <input type="number" name="yearsExp" placeholder=0 /><br />
+
+          <label for="mgmtExp">Have you ever had management experience in a restaurant?</label><br />
+          <select name="mgmtExp">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select><br />
+
+          <label for="yearsExp">How many restaurants have you been involved with?</label><br />
+          <input type="number" name="yearsExp" placeholder=0 /><br />
+
+          
+          <div class="slidecontainer">
+            <label>How much do you agree with the following statement?</label> <br/>
+            <label style="font-size: 16px;">"Owning my own restaurant is my number one goal in life."</label><br/>
+            <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+          </div>
+
+          <label for="relocate">Would you be rewilling to relocate for a $1,000,000 turn-key restaurant?</label><br />
+          <select name="relocate">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select><br />
+
+          <label for="mgmtExpAny">Have you ever had management experience in any industry?</label><br />
+          <select name="mgmtExpAny">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select><br />
+
+          <label for="ownCompany">Have you ever started your own company?</label><br />
+          <select name="ownCompany">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select><br />
+
+          <div class="slidecontainer">
+            <label>On a scale from (0 to 100) how much do you enjoy cooking?</label> <br/>
+            <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+          </div>
+
+
+
+
+
+
+          <label for="vidContest">Upload a video of you cooking your signature dish!</label><br />
+          <input type="file" name="vidContest"/><br />
+          
+
+
+
+        </form>
+    </div>
+  </body>
+</html>
