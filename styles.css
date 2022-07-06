@@ -9,11 +9,10 @@
   margin-left: 10%;
   margin-right: 10%;
   border: black solid;
-
 }
 
 .Header {
-  background-color: #000;
+  background-color: lightpink;
   display: flex;
   flex-direction: column;
   margin-left: 10%;
@@ -21,51 +20,50 @@
 }
 
 .headerH1 {
-  color: lightyellow;
+  color: #000;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
 }
 
 .headerH3 {
-  color: lightyellow;
+  color: #000;
   text-align: center;
   font-size: 18px;
 }
 
 .headerLogo {
-  width: 30vh;
+  width: 50vh;
   padding-bottom: 20px;
   padding-top: 20px;
   margin: 10px auto 20px;
   display: block;
 }
 
-.formWrapper {
+.roundWrapper {
   padding: 10px 10px 10px 10px;
   border: solid black;
-  margin: 5% 10% 10% 10%
+  margin: 5% 10% 10% 10%;
 }
 
-.roundOne{
+.roundOne {
   line-height: 30px;
   font-size: 20px;
 }
 
-input{
+input {
   width: 25vh;
   height: 3vh;
   margin-bottom: 20px;
 }
 
-.btnWrapper{
+.btnWrapper {
   margin-top: -10px;
   margin-bottom: 40px;
-
 }
-button{
+button {
   border-radius: 50px;
-  background: #000; 
+  background: #000;
   white-space: nowrap;
   padding: 14px 48px;
   color: lightyellow;
@@ -81,28 +79,33 @@ button{
 
 button:hover {
   transition: all 0.2s ease-in-out;
-  background: #fff;
+  background: lightpink;
   color: #000;
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
-select{
-  border-radius: 50px;
-  background: #000; 
-  white-space: nowrap;
+select {
+  background: lightpink;
   padding: 14px 48px;
-  color: lightyellow;
-  font-size: 20px;
-  outline: none;
+  color: black;
+  font-size: 18px;
   border: none;
   cursor: pointer;
   display: flex;
-  justify-content: center;
-  align-items: center;
   transition: all 0.2s ease-in-out;
 }
 
-form{
+form {
   margin-left: 5%;
   text-align: left;
 }
+
+.slideContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.sliderScale {
+  font-size: 12px;
+}
+
